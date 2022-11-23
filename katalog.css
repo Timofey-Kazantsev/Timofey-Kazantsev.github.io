@@ -1,0 +1,119 @@
+body{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    
+} 
+
+.box {
+    background: url(Images/4853433.jpg);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    min-height: 700px;
+    padding: 30px;
+   
+    
+}
+
+.header { 
+    display: flex;
+    align-content: center;
+    flex-direction: column;
+    padding: 30px;/* some padding */
+    text-align: center; /* center the text */
+    background: url(Images/wepik-photo-mode-2022930-204548.jpeg); /* green background */
+    color: black; /* white text color */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;   
+}
+.name
+{
+    margin: 0px;  
+    font-size: 75px;
+}
+.name-p{
+    margin: 0px;
+    font-size: 50px;
+}
+.navbar {
+    overflow: hidden; /* Hide overflow */
+    background-color: #333; /* Dark background color */
+}
+
+/* Style the navigation bar links */
+.navbar a {
+    margin: 0;
+    float: left; /* Make sure that the links stay side-by-side */
+    display: block; /* Change the display to block, for responsive reasons (see below) */
+    color: white; /* White text color */
+    text-align: center; /* Center the text */
+    padding: 14px 20px; /* Add some padding */
+    text-decoration: none; /* Remove underline */
+}
+
+/* Right-aligned link */
+.navbar a.right {
+    float: right; /* Float a link to the right */
+}
+
+/* Change color on hover/mouse-over */
+.navbar a:hover {
+    background-color: #ddd; /* Grey background color */
+    color: black; /* Black text color */
+}
+
+
+.contents
+{
+    display: flex;
+    justify-content: flex-start;
+
+}
+    
+    
+    
+}
+.Cont1 {
+   
+  font-size: 20px;
+    
+    
+}
+    
+
+.footer
+{
+    height: 100px;
+    background-color: #333;
+    
+}
+p 
+{
+    margin-top: 10px;
+    margin-bottom: 10px
+}
+.Cont2
+{
+    margin-top: 80px;
+    display: flex;
+    flex-direction: column;
+}
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.text 
+{
+  display: flex;
+    justify-content: space-around;
+    font-size: 20px;
+}
+.brus
+{
+    
+}
