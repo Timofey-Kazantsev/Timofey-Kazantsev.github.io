@@ -17,7 +17,7 @@ a{
   width: 40%;
   min-width: 320px;
   max-width: 475px;
-  background: #fff;
+  background: #333;
   position: absolute;
   top: 50%;
   left: 50%;
@@ -35,7 +35,7 @@ a{
 
 .log-form h2 {
   width: 100%;
-  color: #5d5d5d;
+  color: white;
   font-family: 'open sans condensed';
   font-size: 1.35em;
   display: block;

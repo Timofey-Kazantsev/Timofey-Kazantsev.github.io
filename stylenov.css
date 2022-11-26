@@ -226,8 +226,38 @@ body
 {
     font-size: 20px;
 }
-.footer
+.bottom
 {
-    height: 30px;
+    height: 70px;
+    color: black;
     background-color: #333;
+    width: 100%;
+    display:flex;
+    align-items: center;
+}
+.info_bottom
+{
+    display:flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+}
+.number_bottom
+{
+    color: white;
+    font-size: 15px;
+    letter-spacing: 2px;
+    
+}
+.mail_bottom
+{
+    color: white;
+    font-size: 15px;
+    letter-spacing: 2px;
+}
+a{
+    text-decoration: none;
+}
+.adress{
+    color: white;
 }
